@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body{
+    background-color: rgb(251, 255, 252);
+    --textColor:rgb(72, 55, 85);
+}
+
+.conteiner-card{
+    width: 60%;
+    margin: auto auto;
+    margin-top: 150px;
+}
+
+.card-box{
+    width: 250px;
+    height: 330px;
+    margin:15px 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 254);
+    box-shadow: 1px 5px 12px gray;
+    border: 1px solid rgb(148, 148, 148);
+    display: inline-block;
+    transition-duration: 0.3s;
+}
+
+.card-box:hover{
+    border: 2px solid gray;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+#precing-box p{
+    display: inline-block;
+    margin: auto;
+}
+
+#precing-box sup, sub{
+    color: rgb(139, 139, 139);
+    font-size: 17px;
+}
+
+
+#precing{
+    font-size: xx-large;
+    color: var(--textColor);
+}
+
+.card-box li{
+    color: rgb(88, 87, 87);
+    list-style: none;
+    padding-top: 10px;
+    margin-left: -30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.card-box #title{
+    display: block;
+    padding: 15px 15px;
+    font-size: x-large;
+    color: var(--textColor);
+}
+
+.card-box button{
+    background-color: rgb(88, 88, 88);
+    color:white;
+    border-radius: 4px;
+    width: 180px;
+    height: 35px;
+    border: 1px solid rgb(150, 150, 150);
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Times;
+}
+
+.card-box button:hover{
+    color: white;
+    background-color: rgb(150, 150, 150);
+    cursor: pointer;
+}
